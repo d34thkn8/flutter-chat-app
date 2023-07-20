@@ -70,6 +70,7 @@ class __FormState extends State<_Form> {
             onClick: () {
               print(emailCtrl.text);
               print(passwdCtrl.text);
+              Navigator.pushNamed(context, 'usuarios');
             },
             texto: 'Iniciar Sesión')
       ]),
